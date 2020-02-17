@@ -13,8 +13,8 @@ workflows:
       - welcome/run
 
 environment:
-   SERVER_IP_ADDRESS: 138.68.163.12
-   DOKKU_APP: circlecidemoankur
+   SERVER_IP_ADDRESS: 138.68.163.126
+   DOKKU_APP: circlecidemo
    TRAVIS: "false"
 steps:
 # Use BASH instead of DASH! see: https://ubuntuforums.org/showthread.php?t=1932504
