@@ -13,7 +13,7 @@ workflows:
       - welcome/run
 
 environment:
-   SERVER_IP_ADDRESS: 138.68.163.126
+   SERVER_IP_ADDRESS: 192.168.12.185
    DOKKU_APP: circlecidemo
    TRAVIS: "false"
 steps:
